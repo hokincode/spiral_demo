@@ -415,7 +415,7 @@ maze_layout = [
     [1, 1, 1, 1, 1, 1, 1]
 ]
 
-MachineL
+Machine:
 Sure, here is another maze that looks similar to the given maze:
 
 ```python

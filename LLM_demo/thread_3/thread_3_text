@@ -431,3 +431,82 @@ maze_layout = [
 ```
 
 This maze has a similar structure with walls and open paths, providing a different layout for navigation.
+
+Human:
+Prompt for spiral maze, with initial position at (3,3) and exit at (5,0):
+
+maze_layout = [ [1, 1, 1, 1, 1, 1, 1],
+                        [1, 0, 0, 0, 0, 0, 1],
+                        [1, 0, 1, 1, 1, 0, 1],
+                        [1, 0, 0, 0, 1, 0, 1],
+                        [1, 1, 1, 1, 1, 0, 1],
+                        [0, 0, 0, 0, 0, 0, 1],
+                        [1, 1, 1, 1, 1, 1, 1]]
+        """Initialize the maze game with a given layout."""
+
+0 is open path, and 1 is wall.
+
+You initial position is at (3,3). And your exit is at (5,0). Do not use algorithms. Check each time if there is a wall. If there is a wall and then comes back. Plan using language. Explain your reasoning. Please provide me the linguistic plan to exit the maze. You are allow to take up to 50 steps.
+
+Machine:
+Sure, let's plan the steps linguistically to navigate the maze from the initial position (3,3) to the exit at (5,0). The maze layout is as follows:
+
+```
+maze_layout = [
+    [1, 1, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 1, 1, 0, 1],
+    [1, 0, 0, 0, 1, 0, 1],
+    [1, 1, 1, 1, 1, 0, 1],
+    [0, 0, 0, 0, 0, 0, 1],
+    [1, 1, 1, 1, 1, 1, 1]
+]
+```
+
+### Linguistic Plan:
+
+1. **Step 1:** Move right to (3,4). Check if there is a wall. There is a wall, so move back to (3,3).
+2. **Step 2:** Move down to (4,3). Check if there is a wall. There is a wall, so move back to (3,3).
+3. **Step 3:** Move left to (3,2). Check if there is a wall. There is no wall, so proceed.
+4. **Step 4:** Move left to (3,1). Check if there is a wall. There is no wall, so proceed.
+5. **Step 5:** Move left to (3,0). Check if there is a wall. There is a wall, so move back to (3,1).
+6. **Step 6:** Move up to (2,1). Check if there is a wall. There is no wall, so proceed.
+7. **Step 7:** Move up to (1,1). Check if there is a wall. There is no wall, so proceed.
+8. **Step 8:** Move right to (1,2). Check if there is a wall. There is no wall, so proceed.
+9. **Step 9:** Move right to (1,3). Check if there is a wall. There is no wall, so proceed.
+10. **Step 10:** Move right to (1,4). Check if there is a wall. There is no wall, so proceed.
+11. **Step 11:** Move right to (1,5). Check if there is a wall. There is no wall, so proceed.
+12. **Step 12:** Move down to (2,5). Check if there is a wall. There is no wall, so proceed.
+13. **Step 13:** Move down to (3,5). Check if there is a wall. There is no wall, so proceed.
+14. **Step 14:** Move down to (4,5). Check if there is a wall. There is no wall, so proceed.
+15. **Step 15:** Move down to (5,5). Check if there is a wall. There is no wall, so proceed.
+16. **Step 16:** Move left to (5,4). Check if there is a wall. There is no wall, so proceed.
+17. **Step 17:** Move left to (5,3). Check if there is a wall. There is no wall, so proceed.
+18. **Step 18:** Move left to (5,2). Check if there is a wall. There is no wall, so proceed.
+19. **Step 19:** Move left to (5,1). Check if there is a wall. There is no wall, so proceed.
+20. **Step 20:** Move left to (5,0). Check if there is a wall. There is no wall, and this is the exit point.
+
+### Plan Summary:
+1. **Step 1:** Move right to (3,4) and hit a wall, move back to (3,3).
+2. **Step 2:** Move down to (4,3) and hit a wall, move back to (3,3).
+3. **Step 3:** Move left to (3,2).
+4. **Step 4:** Move left to (3,1).
+5. **Step 5:** Move left to (3,0) and hit a wall, move back to (3,1).
+6. **Step 6:** Move up to (2,1).
+7. **Step 7:** Move up to (1,1).
+8. **Step 8:** Move right to (1,2).
+9. **Step 9:** Move right to (1,3).
+10. **Step 10:** Move right to (1,4).
+11. **Step 11:** Move right to (1,5).
+12. **Step 12:** Move down to (2,5).
+13. **Step 13:** Move down to (3,5).
+14. **Step 14:** Move down to (4,5).
+15. **Step 15:** Move down to (5,5).
+16. **Step 16:** Move left to (5,4).
+17. **Step 17:** Move left to (5,3).
+18. **Step 18:** Move left to (5,2).
+19. **Step 19:** Move left to (5,1).
+20. **Step 20:** Move left to (5,0).
+
+This plan correctly navigates from the initial position (3,3) to the exit at (5,0).
+

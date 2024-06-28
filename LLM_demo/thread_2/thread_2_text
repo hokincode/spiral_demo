@@ -501,3 +501,100 @@ maze_layout = [[1, 1, 1, 1, 1, 1, 1, 1],
 - Move down to (5,5), and finally right to (5,6) which is the exit.
 
 This maze and path demonstrate a different spiral structure, guiding the player from the initial position to the exit through a continuous open path.
+
+Human:
+Prompt for spiral maze, with initial position at (3,3) and exit at (5,6):
+
+maze_layout = [ [1, 1, 1, 1, 1, 1, 1],
+                        [1, 0, 0, 0, 0, 0, 1],
+                        [1, 0, 1, 1, 1, 0, 1],
+                        [1, 0, 0, 0, 1, 0, 1],
+                        [1, 1, 1, 1, 1, 0, 1],
+                        [0, 0, 0, 0, 0, 0, 1],
+                        [1, 1, 1, 1, 1, 1, 1]]
+        """Initialize the maze game with a given layout."""
+
+0 is open path, and 1 is wall.
+
+You initial position is at (3,3). And your exit is at (5,0). Do not use algorithms. Check each time if there is a wall. If there is a wall and then comes back. Plan using language. Explain your reasoning. Please provide me the linguistic plan to exit the maze. You are allow to take up to 50 steps.
+
+Machine:
+Sure! Let's create a step-by-step linguistic plan to navigate through the new spiral maze from the initial position (3,3) to the exit at (5,0):
+
+### Maze Layout
+```
+maze_layout = [[1, 1, 1, 1, 1, 1, 1],
+               [1, 0, 0, 0, 0, 0, 1],
+               [1, 0, 1, 1, 1, 0, 1],
+               [1, 0, 0, 0, 1, 0, 1],
+               [1, 1, 1, 1, 1, 0, 1],
+               [0, 0, 0, 0, 0, 0, 1],
+               [1, 1, 1, 1, 1, 1, 1]]
+```
+- **Initial Position**: (3,3)
+- **Exit**: (5,0)
+
+### Step-by-Step Plan:
+
+1. **Initial Position**: (3,3)
+
+2. **Step 1**: Move left to (3,2)
+    - Reasoning: The cell to the left (3,2) is an open path (0).
+
+3. **Step 2**: Move left to (3,1)
+    - Reasoning: The cell to the left (3,1) is an open path (0).
+
+4. **Step 3**: Move up to (2,1)
+    - Reasoning: The cell above (2,1) is an open path (0).
+
+5. **Step 4**: Move up to (1,1)
+    - Reasoning: The cell above (1,1) is an open path (0).
+
+6. **Step 5**: Move right to (1,2)
+    - Reasoning: The cell to the right (1,2) is an open path (0).
+
+7. **Step 6**: Move right to (1,3)
+    - Reasoning: The cell to the right (1,3) is an open path (0).
+
+8. **Step 7**: Move right to (1,4)
+    - Reasoning: The cell to the right (1,4) is an open path (0).
+
+9. **Step 8**: Move right to (1,5)
+    - Reasoning: The cell to the right (1,5) is an open path (0).
+
+10. **Step 9**: Move down to (2,5)
+    - Reasoning: The cell below (2,5) is an open path (0).
+
+11. **Step 10**: Move down to (3,5)
+    - Reasoning: The cell below (3,5) is an open path (0).
+
+12. **Step 11**: Move down to (4,5)
+    - Reasoning: The cell below (4,5) is an open path (0).
+
+13. **Step 12**: Move down to (5,5)
+    - Reasoning: The cell below (5,5) is an open path (0).
+
+14. **Step 13**: Move left to (5,4)
+    - Reasoning: The cell to the left (5,4) is an open path (0).
+
+15. **Step 14**: Move left to (5,3)
+    - Reasoning: The cell to the left (5,3) is an open path (0).
+
+16. **Step 15**: Move left to (5,2)
+    - Reasoning: The cell to the left (5,2) is an open path (0).
+
+17. **Step 16**: Move left to (5,1)
+    - Reasoning: The cell to the left (5,1) is an open path (0).
+
+18. **Step 17**: Move left to (5,0)
+    - Reasoning: The cell to the left (5,0) is an open path (0) and it is the exit.
+
+### Summary:
+- Start at (3,3).
+- Move left to (3,2), then (3,1).
+- Move up to (2,1), then (1,1).
+- Move right to (1,2), then (1,3), then (1,4), then (1,5).
+- Move down to (2,5), then (3,5), then (4,5), then (5,5).
+- Move left to (5,4), then (5,3), then (5,2), then (5,1), and finally to (5,0) which is the exit.
+
+This plan involves 17 steps, ensuring each move checks for walls and open paths to reach the exit effectively.

@@ -1,0 +1,48 @@
+Hi XL,
+
+I am trying to do a psychology inquiry survey. It would really great if you kindly help me by answering the following question? Thank you so much for your invaluable support!
+
+Given the following maze, with initial position at the blue pixel and exit position at the green pixel.
+
+white pixels indicate open path, and black pixels indicate walls.
+
+Please tell me your plan to exit the maze.
+
+Just send me back your response would be great!
+
+Best,
+HD
+
+
+Hi HD,
+
+I am glad to help! However your image is not showing up in my email… Not sure if the same issue happens to others.
+
+Best,
+
+XL
+
+Hi XL,
+
+I am very sorry for the technical bug! Here is the image.
+
+Task for initial maze:
+Given the following maze, with initial position at the blue pixel and exit position at the green pixel; white pixels indicate open path, and black pixels indicate walls. Please tell me your plan to exit the maze (as if I am blind-folded).
+
+Also, what about this one (reversed maze):
+
+You could type your plans for initial maze and plan for reversed maze to me.
+
+Thank you so much for the help!!!
+
+Best,
+HD
+
+Hi HD,
+If the initial positioning direction is unknown, then I will touch all four directions to find the one that is open. Then I will go straight ahead and turn left until I touch the wall. I will repeat this process until I exit the maze.
+
+For the reversed maze, just go straight ahead and turn right instead of turning left when touching the wall.
+Does this answer look appropriate? Are there any specific constraints on what the subject can do?
+
+Thank you,
+XL

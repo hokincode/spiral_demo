@@ -1,0 +1,39 @@
+Hi, my dear friend E
+
+I am trying to do a psychology inquiry survey. It would really great if you kindly help me by answering the following question? Thank you so much for your invaluable support!
+Given the following maze, with initial position at the blue pixel and exit position at the green pixel.
+
+white pixels indicate open path, and black pixels indicate walls.
+
+Please tell me your plan to exit the maze.
+
+Just send me back your response would be great!
+
+Best,
+Hokin
+
+Hi Hokin,
+
+Sure, I'd be happy to!
+
+If I were standing on the blue square, I would walk forward (the only direction not blocked by walls) until I reached the end of that corridor. Then I would make a left turn (which would be the only turn available to me that would not cause me to regress) and walk as far as I could down that new hallway. I would repeat that 3 more times until I walked out of the maze.
+
+(Just in case, assuming this was a real maze, I would probably leave some sort of marker of my starting point and keep my right hand on the wall in case the maze was more complicated than expected or had some interior loops and I had to brute-force the solution.)
+
+Was that what you were looking for?
+
+Good luck,
+E
+
+Hi E,
+
+Thank you tremendously for the help!
+
+Your answer is absolutely excellent and demonstrates that you are a person not a machine. Could you also tell me the plan to exit this (slightly different) maze though (as if I am blind-folded)
+
+Best,
+Hokin
+
+Hi yes,
+
+Ok, assuming you are blindfolded and standing on the blue square, I would ask you to reach out with your hands to orient to the 3 walls around you and then walk in the one remaining open direction, with your left hand on the wall, until you reach the first corner. Then make a 90 degree right turn, keeping your left hand on the wall, and walk straight ahead slightly farther this time until you reach the next corner, and repeat the right turn. Walk straight ahead, repeat the right turn at the last corner, and walk straight ahead again until you exit the maze.

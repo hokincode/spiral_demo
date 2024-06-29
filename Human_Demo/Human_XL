@@ -39,6 +39,7 @@ Best,
 HD
 
 Hi HD,
+
 If the initial positioning direction is unknown, then I will touch all four directions to find the one that is open. Then I will go straight ahead and turn left until I touch the wall. I will repeat this process until I exit the maze.
 
 For the reversed maze, just go straight ahead and turn right instead of turning left when touching the wall.
